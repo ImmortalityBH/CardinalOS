@@ -9,5 +9,7 @@ enum TERMINAL_ERROR
 
 int terminal_init(void);
 void terminal_write(const char* str);
+void terminal_prompt(void);
+void terminal_newline(void);
 
 #endif // TERMINAL_H

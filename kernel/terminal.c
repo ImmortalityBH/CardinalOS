@@ -1,5 +1,13 @@
 #include "terminal.h"
 
+void terminal_prompt(void) {
+	//printf(">");
+}
+
+void terminal_newline(void) {
+	//printf("%n");
+}
+
 /*int terminal_init(void)
 {
 	terminal_row = 0;
