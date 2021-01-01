@@ -8,6 +8,7 @@ enum TERMINAL_ERROR
 };
 
 int terminal_init(void);
+static void terminal_putchar(char c);
 void terminal_write(const char* str);
 void terminal_prompt(void);
 void terminal_newline(void);
