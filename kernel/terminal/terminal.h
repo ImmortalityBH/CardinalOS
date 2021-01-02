@@ -7,7 +7,8 @@ enum TERMINAL_ERROR
     TERMINAL_INIT_SUCCESS = 1,
 };
 
-int terminal_init(void);
+int terminal_startup(void);
+int terminal_shutdown(void);
 static void terminal_putchar(char c);
 void terminal_write(const char* str);
 void terminal_prompt(void);
